@@ -1,0 +1,72 @@
+body{
+    background-color: cornflowerblue;
+    margin: 0;
+    padding-left: 20%;
+    padding-right: 20%;
+    background: url('background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover; 
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+#content{
+    background-color: rgba(226, 226, 226, 0.568);
+    display: flex;
+    border: 1px solid #2d2d2d;
+    justify-content: center;
+    height: 100%;
+}
+
+.landing{
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.blurb{
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.699);
+    padding: 20px;
+}
+
+.hours{
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.699);
+    width: 100%;
+}
+
+.location{
+        text-align: center;
+        background-color: rgba(255, 255, 255, 0.699);
+        width: 100%;
+}
+
+#foodimage{
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    background-color: cornflowerblue;
+    justify-content: space-evenly;
+}
+
+.navitem{
+    font-size: 1.4rem;
+    padding: 10px;
+    width: 33%;
+    text-align: center;
+    cursor:pointer;
+}
+
+.navitem:hover{
+   background-color: aqua;
+}
+
