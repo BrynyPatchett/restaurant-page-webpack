@@ -1,5 +1,6 @@
-import home from './home.js';
-import './style.css'
+import home from './landing.js';
+import './style.css';
+
 const contentDisplay = document.querySelector('#content');
 
 

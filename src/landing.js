@@ -1,4 +1,5 @@
 import fancyFoodImage from './fancyfood.png';
+import './landing-style.css';
 
 export default function createHome(){
     //create landing 
