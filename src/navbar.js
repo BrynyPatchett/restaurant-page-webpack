@@ -1,7 +1,8 @@
  import './navbar-style.css';
- 
- export default function(){
-    let navbar = document.createElement('nav');
+
+ export {navbar as default};
+
+    const navbar = document.createElement('nav');
     navbar.classList.add("navbar");
 
     let navOne = document.createElement('div');
@@ -18,7 +19,3 @@
     navbar.appendChild(navOne);
     navbar.appendChild(navTwo);
     navbar.appendChild(navThree);
-
-    return navbar;
-
- }
