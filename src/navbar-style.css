@@ -3,6 +3,7 @@ nav{
     flex-direction: row;
     background-color: rgb(39, 36, 36);
     justify-content: space-evenly;
+    box-shadow: 0 0 3px rgb(39, 26, 26);
 }
 
 .navitem{

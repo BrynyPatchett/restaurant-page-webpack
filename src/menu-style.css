@@ -1,0 +1,34 @@
+.menu{
+    background-color:#fffdfd;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    height: min-content;
+    margin-top: 30px;
+    width: 600px;
+    font-size: 1.4rem;
+    border-radius: 6px;
+    box-shadow: 0 0 3px rgb(39, 26, 26);
+}
+
+#menuTitle{
+    margin-top: 10px;
+    margin-bottom: 40px;
+    border: 1px solid;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    align-self: center;
+    width: 60%;
+}
+
+.menuitemflex{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 20px;
+    >p{
+        margin: 0;
+    }    
+    margin-bottom: 40px;
+    font-style: italic;
+}
