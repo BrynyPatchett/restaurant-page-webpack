@@ -1,7 +1,7 @@
 import fancyFoodImage from './fancyfood.png';
 import './landing-style.css';
 
-export default function createHome(){
+export default function (){
     //create landing 
     let landing = document.createElement('div');
     landing.classList.add("landing");

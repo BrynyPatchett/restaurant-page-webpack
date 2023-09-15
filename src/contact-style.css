@@ -1,0 +1,61 @@
+
+.contact{
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    margin-top: 30px;
+    width: 1000px;
+    text-align: center;
+    flex-direction: column;
+    height: min-content;
+    margin-top: 30px;
+    font-size: 1.4rem;
+    border-radius: 6px;
+    box-shadow: 0 0 3px rgb(39, 26, 26);
+    >h1{
+        margin: 50px;
+    }
+}
+
+.contactSection{
+    display: flex;
+    gap: 40px;
+    justify-content: space-around;
+}
+
+.contactinfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: 0 0 2px rgb(39, 26, 26);
+    padding: 10px;
+    background-color: rgba(226, 226, 226, 0.226);
+    border-radius: 6px;
+}
+
+.map{
+    overflow:hidden;
+    resize:none;
+    max-width:100%;
+    width:400px;
+    height:400px;
+}
+
+#google-maps-canvas{
+    height:100%; 
+    width:100%;
+    max-width:100%;
+}
+
+iframe{
+    height:100%;
+    width:100%;
+    border:0;
+}
+
+#google-maps-canvas img.text-marker{
+    max-width:none!important;background:none!important;
+}
+img{
+    max-width:none
+}
+

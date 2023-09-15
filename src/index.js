@@ -1,5 +1,5 @@
 import navbar from './navbar.js';
-import home from './landing.js';
+import landing from './landing.js';
 import menu from './menu.js';
 import contact from './contact.js';
 import './style.css';
@@ -19,15 +19,15 @@ function navClick(navTarget){
     clearContent();
     contentDisplay.appendChild(navTarget());
 }
-//Add Lister To Home nav
+//Add Lister to landing nav (home on nav bar)
 navbar.childNodes[0].addEventListener('click',() => {
-    navClick(home);
+    navClick(landing);
 });
-//Add Lister To Menu nav
+//Add Lister to Menu nav
 navbar.childNodes[1].addEventListener('click',() => {
     navClick(menu);
 });
-//Add Lister To Contact nav
+//Add Lister to Contact nav
 navbar.childNodes[2].addEventListener('click',() => {
     navClick(contact);
 });
@@ -36,6 +36,8 @@ console.log(navbar);
 
 //initalize Page
 (function (){
-     body.insertBefore(navbar,body.firstChild)
-     contentDisplay.appendChild(home());
+    //insert nav above content div as it is never removed
+    body.insertBefore(navbar,body.firstChild);
+    //display inisial landing page
+    contentDisplay.appendChild(landing());
 })();

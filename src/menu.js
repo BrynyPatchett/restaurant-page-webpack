@@ -35,7 +35,7 @@ export default function () {
     let drinkItems = ["Beer (Warm)","Wine","Water"];
     let drinkPrices = [24,199,17];
 
-    for(let i = 0; i <foodItems.length; i++){
+    for(let i = 0; i <drinkItems.length; i++){
         let item  = document.createElement("div");
         item.classList.add('menuitemflex');
 
